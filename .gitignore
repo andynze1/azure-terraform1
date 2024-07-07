@@ -39,3 +39,5 @@ azure-keypair.pub
 azure-keypair.pem
 
 variables.tf
+
+maintfplan
