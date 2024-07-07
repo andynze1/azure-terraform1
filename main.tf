@@ -7,8 +7,6 @@ terraform {
   }
 }
 
-
-
 resource "azurerm_resource_group" "dml-group" {
   name     = "app-group"
   location = "East US"
