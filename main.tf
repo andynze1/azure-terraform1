@@ -7,17 +7,7 @@ terraform {
   }
 }
 
-provider "azurerm" {
-  subscription_id = "caa21c1c-cb6d-450c-af43-025e73e7c628"     // from account
-  tenant_id       = "27efb6c8-a6c7-4447-837e-75c28304d7f2"     // app registration user
-  client_id       = "8e8350d4-9e8b-4357-9d4e-67e656050cad"     // app reg app client id
-  client_secret   = "REMOVED_SECRET" // Cert&secret app reg
-  features {
-    # resource_group {
-    #   prevent_deletion_if_contains_resources = false
-    # }
-  }
-}
+
 
 resource "azurerm_resource_group" "dml-group" {
   name     = "app-group"
