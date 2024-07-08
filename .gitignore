@@ -38,6 +38,6 @@ terraform.rc
 azure-keypair.pub
 azure-keypair.pem
 
-variables.tf
+providers.tf
 
 maintfplan
